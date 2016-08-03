@@ -1,0 +1,12 @@
+ Configuring the app in Zendesk
+
+    After signing in to Zendesk as an administrator, click the Admin icon (icon) in the sidebar, then select Channels > Mobile SDK.
+    If a configuration exists for your app, select it. If not, create a new configuration. See Adding support options to your mobile app for customers.
+    In the Customizations tab, select Anonymous Access as the authentication method.
+    Save the configuration.
+
+COPPA
+
+If you have users under the age of thirteen, you may need to comply with COPPA. You only need to enable COPPA if you need to comply and you're using anonymous identities.
+
+You can enable COPPA in the Support SDK by calling the following code. When you enable COPPA, the Support SDK removes the name and email from the end user's identity.
